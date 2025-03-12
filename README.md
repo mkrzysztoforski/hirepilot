@@ -1,9 +1,3 @@
-📌 README.md for HirePilot
-
-Here’s a structured GitHub README for your HirePilot app, including a description, tech stack, setup instructions, and future plans. 🚀
-
-⸻
-
 HirePilot – Your Job Application Tracker
 
 🚀 HirePilot helps you track your job applications, manage interview stages, and keep an eye on salary offers – all in one place!
@@ -61,20 +55,8 @@ npm install
 3️⃣ Add Firebase configuration
 	1.	Go to Firebase Console
 	2.	Create a project & enable Firestore + Authentication
-	3.	Copy your Firebase config into:
-📂 src/environments/environment.ts
-
-export const environment = {
-  production: false,
-  firebase: {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
-  }
-};
+	3.	Remove `example` and copy your Firebase config into:
+📂 src/environments/environment.example.ts
 
 4️⃣ Run the app
 
